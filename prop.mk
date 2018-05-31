@@ -80,6 +80,10 @@ ro.opengles.version=196610 \
 ro.qualcomm.cabl=0 \
 ro.sf.lcd_density=480
 
+# Enable HW Keys (By default)
+PRODUCT_PROPERTY_OVERRIDES += \
+qemu.hw.mainkeys=1
+
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
 drm.service.enabled=true
